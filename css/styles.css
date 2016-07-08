@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 2vh;
+  background-color: #52002E;
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+
+}
+
+main {
+  background-color: #439191;
+  color: white;
+}
+
+.first {
+  background-color: #1B8E1B;
+  color: white;
+}
+
+.second {
+  background-color: #D08242;
+  color: white;
+}
+
+.mobile-only {
+  background-color: #8F1B5D;
+  color: white;
+}
+
+
+@media only screen and (max-width: 599px) {
+
+  nav {
+    height: 12vh;
+    width: 94vw;
+    margin-bottom: 7vh;
+
+  }
+
+  main {
+    height: 44vh;
+    width: 94vw;
+    margin-bottom: 1vh;
+  }
+
+  .first {
+    height: 5vh;
+    width: 94vw;
+    margin-bottom: 2vh;
+
+  }
+
+  .second {
+    height: 5vh;
+    width: 94vw;
+    margin-bottom: 2vh;
+  }
+
+  .mobile-only {
+    height: 28vh;
+    width: 94vw;
+    margin-bottom:
+
+  }
+}
