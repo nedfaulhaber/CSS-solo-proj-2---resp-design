@@ -69,9 +69,79 @@ main {
   }
 
   .mobile-only {
-    height: 28vh;
+    height: 18vh;
     width: 94vw;
-    margin-bottom:
+  }
 
+}
+
+@media only screen and (min-width: 600px) {
+
+  body {
+    margin: 0;
+  }
+
+  main {
+    height: 65vh;
+    width: 100vw;
+    margin-bottom: 1vh;
+
+  }
+
+  .first {
+    height: 31vh;
+    width: 49vw;
+    float: left;
+  }
+
+  .second {
+    height: 31vh;
+    width: 49vw;
+    float: right;
+  }
+
+  .mobile-only {
+    height: 0;
+    width: 0;
+    font-size: 0;
+  }
+
+  nav {
+    float: left;
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin-bottom: 0;
+
+  }
+}
+
+@media only screen and (min-width: 1225px) {
+
+  body {
+      margin: 0;
+  }
+
+  main {
+    height: 100vh;
+    width: 75vw;
+    float: left;
+    margin: 0;
+  }
+
+  .first {
+    height: 49vh;
+    width: 23vw;
+    float: right;
+    margin-bottom: 2vh;
+    margin-left: -1vh;
+  }
+
+  .second {
+    height: 49vh;
+    width: 23vw;
+    float: right;
   }
 }
