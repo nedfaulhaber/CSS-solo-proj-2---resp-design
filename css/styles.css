@@ -13,6 +13,7 @@ body {
   background-color: #52002E;
 }
 
+
 nav {
   background-color: firebrick;
   color: white;
@@ -52,8 +53,22 @@ main {
   color: white;
 }
 
+@media only screen and (max-width: 400px) {
 
-@media only screen and (max-width: 599px) {
+  .first {
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+
+  .first {
+    padding-bottom: 84px;
+  }
+
+}
+
+@media only screen and (max-width: 651px) {
 
   nav {
     height: 4vh;
@@ -83,7 +98,10 @@ main {
     height: 7vh;
     width: 94vw;
     margin-bottom: 3vh;
-    padding-top: 2px;
+    padding-top: 3px;
+
+
+
   }
 
   .first p {
@@ -91,11 +109,13 @@ main {
     width: 0;
     font-size: 0;
   }
+
   .key-words {
     text-align: center;
     word-spacing: 20px;
     padding-left: 0;
     font-size: 20px;
+    min-width: 900px;
 
   }
 
@@ -105,7 +125,7 @@ main {
   }
 
   .second {
-    height: 10vh;
+    height: auto;
     width: 94vw;
     margin-bottom: 3vh;
     padding: 15px;
@@ -122,7 +142,7 @@ main {
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 656px) {
 
   body {
     margin: 0;
@@ -131,12 +151,13 @@ main {
   .header {
     float: left;
     position: absolute;
-    top: 715px;
+    bottom: 1%;
     left: 15px;
     font-size: 30px;
   }
 
   main {
+    position: relative;
     height: 65vh;
     width: 100vw;
     margin-bottom: 1vh;
